@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>GeneralBot</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        
+    </head>
+    <body>
+        <header>
+            <h1>GeneralBot</h1>
+        </header>
+        <nav class="topnav">
+            <a href="index.html">Inicio</a>
+         
+                <a href="comandos.html">Comandos</a>
+         
+        </nav>
+
+        <div>
+           
+         
+            <h3>Comandos do GeneralBot</h3>
+            <p>Comandos para do discord</p>
+        
+        </div>
+        <div class="Titulocomando">
+        <h3>Comandos para Users</h3>
+        <h4>Qualquer user pode usar esses comandos</h4>
+        </div>
+        <div class="tabela">
+        <table>
+            <tr>
+              <th>Comandos</th>
+              <th>O que faz?</th>
+            
+            </tr>
+           <tr>
+               <td>?help, ?ajuda ou ?hp</td>
+               <td>Retornar uma lista de comandos disponíveis.</td>
+               
+           </tr>
+           <tr>
+            <td>?eu</td>
+            <td>Retornar informações do seu usuário.</td>
+            
+        </tr>
+        <tr>
+            <td>?sobre @*user*</td>
+            <td>Retornar informações dos outros usuários.</td>
+            
+        </tr>
+        <tr>
+            <td>?myinvite ou ?miv ID</td>
+            <td>Cria um link o canal referente a ID. Se ID for vazio, cria um link do canal atual.</td>
+            
+        </tr>
+        <tr>
+            <td>?ping</td>
+            <td>Retornar o tempo médio de resposta do bot.</td>
+            
+        </tr>
+        <tr>
+            <td>?mat, ?math ou ?m operação</td>
+            <td>Retornar o resultado de uma operação matemática.</td>
+            
+        </tr>
+        <tr>
+            <td>?arcade</td>
+            <td>Verifica se há algum jogo em fase beta.</td>
+            
+        </tr>
+        <tr>
+            <td>?dicio, ?dic ou ?dc "palavra"</td>
+            <td>Procura a definição ou classificação de uma palavra.</td>
+            
+        </tr>
+        <tr>
+            <td>?staffajuda "texto" ou ?sta "texto"</td>
+            <td>Envia uma mensagem ao canal de staff. Enviar entre as aspas!</td>
+            
+        </tr>
+        <tr>
+            <td>?meajude ou ?ma</td>
+            <td>Ajude os criadores do bot.</td>
+            
+        </tr>
+        <tr>
+            <td>?botinvite @bot ou ?bi @bot</td>
+            <td>Cria um link de convite para um bot.</td>
+            
+        </tr>
+        <tr>
+            <td>[game] ?dice</td>
+            <td>Jogo de dados - ganha mais pontos se todos os dados forem iguais.</td>
+            
+        </tr>
+        <tr>
+            <td>[game] ?pedir</td>
+            <td>Pede seus edinaldos iniciais (moedas do jogo).</td>
+            
+        </tr>
+        <tr>
+            <td>[game] ?desafiar @user ou ?de @user</td>
+            <td>Desafia um usuário no jogo da velha.</td>
+            
+        </tr>
+        <tr>
+            <td>[game] ?play número ou ?p número</td>
+            <td>Marca uma posição no jogo da velha. Os números variam de 1 a 9.</td>
+            
+        </tr>
+        <tr>
+            <td>[game] ?desistir ou ?dr</td>
+            <td>Desiste do jogo da velha.</td>
+            
+        </tr>
+          </table>
+          
+
+        </div>
+        <div class="Titulocomando">
+        <h3>Comandos para Staff</h3>
+        <h4>Os staffers devem ter permissão de "gerenciador de canais"</h4>
+        </div>
+        <div class="tabela">
+        <table>
+            <tr>
+                <th>Comandos</th>
+                <th>O que faz?</th>
+              
+              </tr>
+
+              <tr>
+                <td>?clear número</td>
+                <td>Apagar uma determinada quantidade de mensagens.</td>
+                
+            </tr>
+            <tr>
+             <td>?clear_all</td>
+             <td>Apagar todas as mensagens de um canal.</td>
+             
+         </tr>
+         <tr>
+             <td>?invites ou ?iv</td>
+             <td>Lista os invites dos usuários.</td>
+             
+         </tr>
+         <tr>
+             <td>?lock @role id-channel</td>
+             <td>Bloqueia um canal, exceto para "@role". Se "id-channel" não for informado, o canal atual será bloqueado. Você também pode usar somente ?lock para bloquear para todos.</td>
+             
+         </tr>
+         <tr>
+             <td>?unlock @role id-channel</td>
+             <td>Desloqueia um canal, exceto para "@role". Se "id-channel" não for informado, o canal atual será bloqueado. Você também pode usar somente ?unlock para desbloquear para todos.</td>
+             
+         </tr>
+         <tr>
+             <td>?defstaff #channel-name ou ?dfc #channel-name</td>
+             <td>Define um canal para os user solicitarem ajuda da staff.</td>
+             
+         </tr>
+         <tr>
+             <td>?udefstaff #channel-name ou ?udfc #channel-name</td>
+             <td>Remove o canal de ajuda da staff.</td>
+             
+         </tr>
+         <tr>
+             <td>?defin #channel-name ou ?dfi #channel-name</td>
+             <td>Define o canal de entrada de usuários.</td>
+             
+         </tr>
+         <tr>
+             <td>?udefin #channel-name ou ?udi #channel-name</td>
+             <td>Define o canal como não sendo de entrada de usuários.</td>
+             
+         </tr>
+         <tr>
+             <td>?defout #channel-name ou ?dfo #channel-name</td>
+             <td>Define o canal de saída de usuários.</td>
+             
+         </tr>
+         <tr>
+             <td>?udefout #channel-name ou ?udo #channel-name</td>
+             <td>Define o canal como não sendo de saída de usuários.</td>
+             
+         </tr>
+         <tr>
+             <td>?channelvname #channel "novo-nome" ou ?chvn  #channel "novo-nome"</td>
+             <td>Renomeia um canal de voz para novo-nome.</td>
+             
+         </tr>
+         <tr>
+             <td>?channeltname #channel "novo-nome" ou ?chtn  #channel "novo-nome"</td>
+             <td>Renomeia um canal de texto para novo-nome.</td>
+             
+         </tr>
+         <tr>
+             <td>?statuschannel ou ?sch</td>
+             <td>Cria canais de status, que mostram o número de usuário e bots em um servidor.</td>
+             
+         </tr>
+         <tr>
+             <td>?udefstatus ou ?uds</td>
+             <td>Remove os canais de status.</td>
+             
+         </tr>
+         <tr>
+             <td>?sorterole @cargo ou ?sr *@cargo*</td>
+             <td>Sorteia um usuário que um determinado cargo.</td>
+             
+         </tr>
+           </table>
+
+        </div>
+        <div class="Titulocomando">
+        <h3>Comandos para Admin</h3>
+        <h4>Os users devem ter permissão de "Administrador"</h4>
+        </div>
+        <div class="tabela">
+        <table>
+            <tr>
+                <th>Comandos</th>
+                <th>O que faz?</th>
+              
+              </tr>
+
+              <tr>
+                <td>?allmembers ou ?am</td>
+                <td>Lista a quantidade de usuários e bots no server.</td>
+                
+            </tr>
+            <tr>
+             <td>?ban @user</td>
+             <td>Banir um usuário.</td>
+             
+         </tr>
+         <tr>
+             <td>?kick @user</td>
+             <td>Kicka um usuário.</td>
+             
+         </tr>
+         <tr>
+             <td>?mkch "categoria" nome-canal</td>
+             <td>Cria um canal de texto normal.</td>
+             
+         </tr>
+         <tr>
+             <td>?mkchv "categoria" nome-canal</td>
+             <td>Cria um canal de voz normal.</td>
+             
+         </tr>
+         <tr>
+             <td>?mkpch "categoria" nome-canal</td>
+             <td>Cria um canal de texto secreto.</td>
+             
+         </tr>
+         <tr>
+             <td>?mkpchv "categoria" nome-canal</td>
+             <td>Cria um canal de voz secreto.</td>
+             
+         </tr>
+         <tr>
+             <td>?delch "categoria"</td>
+             <td>Deleta uma categoria e todos os canais existentes na mesma.</td>
+             
+         </tr>
+         <tr>
+             <td>?remove_roles ou ?rmr @user @role</td>
+             <td>Remove uma regra @role do usuário @user.</td>
+             
+         </tr>
+         <tr>
+             <td>?setprefix prefixo</td>
+             <td>Muda o prefixo do bot (ex. ?setprefix p!)</td>
+             
+         </tr>
+         <tr>
+             <td>?remind ou ?rd DD/MM/AAAA @user @role</td>
+             <td>Adiciona um cargo temporário ao usuário até a data DD/MM/AAAA (Beta)</td>
+             
+         </tr>
+         <tr>
+             <td>?addroles ou ?adr @oldrole @newrole</td>
+             <td>Adiciona um cargo @newrole aos usuários que têm o cargo @oldrole.</td>
+             
+         </tr>
+         <tr>
+             <td>?adduser_roles ou ?adur @user @role</td>
+             <td>Adiciona uma regra @role ao usuário @user.</td>
+             
+         </tr>
+         <tr>
+             <td>?wellcome #channel-name ou ?wcm #channel-name</td>
+             <td>Define um canal como registro por reação. Você deve criar um canal somente para isso e um cargo com o nome Membro.</td>
+             
+         </tr>
+         <tr>
+             <td>?reactionrole @cargo emoji ou ?rr @cargo emoji</td>
+             <td>Cargos por reações. Você pode inserir até 10 cargos de uma vez.</td>
+             
+         </tr>
+         <tr>
+             <td>?defchatguild #channel ou ?dfcg #channel</td>
+             <td>Define um canal como chatguild. Com esse canal os donos e admins poderão se comunicar com outros donos e admins.</td>
+             
+         </tr>
+         <tr>
+            <td>?udefchatguild #channel ou ?udcg #channel</td>
+            <td>Define um canal como não sendo de chatguild.</td>
+            
+        </tr>
+        <tr>
+            <td>?listguild ou ?lgd</td>
+            <td>Lista os possíveis servidores para chatguild.</td>
+            
+        </tr>
+        <tr>
+            <td>?chatguild ID-guild "Mensagem" ou ?cgd ID-guild "Mensagem"</td>
+            <td>Envia uma mensagem para o servidor informado pela ID.</td>
+            
+        </tr>
+        
+           </table>
+
+
+
+
+
+
+</div>
+
+
+
+
+        <footer>
+            <div class="link">
+                <table>
+                    <tbody><tr>
+                        <th>
+                            <a href="https://discord.gg/Jdh9Bdr4cV">
+                            <img src="img/discordicon.png" class="icon">
+                            </a>
+                        </th>
+                      <th>
+                      
+                  <a href="https://discord.gg/Jdh9Bdr4cV">
+                                  <h2>Servidor do BosonsHiggs</h2>
+                                  
+                              </a>
+                              
+                              </th>
+                      
+                  
+                    </tr>
+                    
+                   
+                  </tbody></table>
+                
+                  <h3>BosonsHiggs Team(criadores do bot) and Kinguim1000(criador do site)</h3>
+                </div>
+            
+
+                        
+            
+        </footer>
+    </body>
+</html>
