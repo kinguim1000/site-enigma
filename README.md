@@ -1,1 +1,2 @@
-https://kinguim1000.github.io
+# https://theworstriddleofinternet.github.io
+theworseriddleofinternet
